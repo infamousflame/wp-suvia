@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Questrial|Raleway');
+
+html{
+    margin: 0 !important;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.site-title a{
+    font-family: "Lobster", cursive;
+    font-family: 80px;
+    text-decoration: none;
+    color: inherit !important;
+    font-size: 80px;
+}
+
+.site-title{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.site-description{
+    text-align: center;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+}
+
+.site-branding{
+    background-image: url("https://suvia-wordpress-infamousflame.c9users.io/wp-content/uploads/2017/01/cropped-sprinklers.jpg");
+    background-size: cover;
+    background-repeat:none;
+    background-attachment: fixed;
+    padding: 18%;
+}
+
+.skip-link{
+    display: none;
+}
+
+#site-navigation .menu-toggle{
+    display: none;
+}
+
+.menu-navigation-container{
+    background-color: white;
+    border-bottom: 1px solid #B2B2B2;    
+}
+
+.menu-navigation-container ul{
+    margin: 0;    
+    padding: 22px;
+    text-align: center;
+
+}
+
+.menu-navigation-container ul li{
+    display: inline-block;
+    padding: 0 20px;
+    margin: -30px 0;
+}
+
+.menu-navigation-container ul li a{
+    color: #858585;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu-navigation-container ul li img{
+    width: 50px;
+}
+
+.site-info{
+    display: none;
+}
+
+.fixed .menu-navigation-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.panel-grid-cell h3{
+    font-family: "Questrial", sans-serif;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 18px;   
+}
+
+.panel-grid-cell .textwidget{
+    font-family: "Raleway", sans-serif;
+}
+
+.team p{
+    padding-top: 100px;
+}
+
+#pg-11-0{
+    padding-top: 10px;
+}
+
+#pg-11-1{
+    border-bottom: 1px solid #eee;
+}
+
+#pg-11-3{
+    border-bottom: 1px solid #eee;
+}
+
+.ow-button-hover{
+    transition: .3s all;
+    border: 1px solid black !important;
+    font-family: "Raleway", sans-serif;
+}
+
+.ow-button-hover:hover{
+    background-color: grey;
+}
+    
