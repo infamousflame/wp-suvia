@@ -11,6 +11,46 @@ html, body{
 }
 
 
+#site-navigation{
+    display:none;
+}
+
+
+.headerSection{
+    text-align: center;
+}
+
+.headerSection{
+    background-image: url("https://suvia-wordpress-infamousflame.c9users.io/wp-content/uploads/2017/01/cropped-sprinklers.jpg");
+    background-size: cover;
+    background-repeat:none;
+    background-attachment: fixed;
+    padding:33vh 0;
+    margin:0;
+}
+.headerSectionTeam{
+    background-image: url("https://suvia-wordpress-infamousflame.c9users.io/wp-content/uploads/2017/02/teamPic.jpg");
+    background-size: cover;
+    background-repeat:none;
+    background-attachment: fixed;
+    padding:33vh 0;
+    background-position: center: 
+    margin:0;
+}
+.headerRow{
+    margin-bottom:0;
+}
+
+.headerSection h3{
+    font-family: "Lobster", cursive !important;
+    text-decoration: none;
+    color: white !important;
+    font-size: 80px !important;
+}
+
+.headerSection .textwidget{
+    color:white !important;
+}
 
 .site-title a{
     font-family: "Lobster", cursive;
@@ -38,7 +78,7 @@ html, body{
     background-size: cover;
     background-repeat:none;
     background-attachment: fixed;
-    padding: 18%;
+    /*padding: 18%;*/
 }
 
 .skip-link{
@@ -124,3 +164,83 @@ html, body{
     background-color: grey;
 }
     
+#pg-11-6{
+    margin-top: 50px;
+    margin-bottom: 0;
+}    
+
+.menu-footer-navigation-container{
+    background-color: grey;
+    padding: 50px;
+    
+}    
+
+
+.menu-footer-navigation-container ul{
+    text-align: center;
+
+}    
+    
+.menu-footer-navigation-container ul li{
+    display: inline;
+}
+
+.menu-footer-navigation-container ul li a{
+    transition: .3s all;
+    color: white;
+    text-decoration: none;
+}
+.menu-footer-navigation-container ul li a:hover{
+    color: black;
+}
+.menu-footer-navigation-container ul li a i{
+    transition: .3s all;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    border-radius: 25.5px;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.menu-footer-navigation-container ul li a i:hover{
+    color: white;
+    background-color: black;
+}
+
+.instagram{
+    margin:0 30px;
+}
+
+.homeMenu, .featuresMenu, .orderMenu, .teamMenu, .blogMenu{
+    padding:10px;
+    font-family: "Questrial", sans-serif;
+}   
+
+.menu-footer-navigation-container p{
+    font-family: "Questrial", sans-serif;
+    color: lightgrey;
+}
+
+
+.footer{
+    display: none;
+}
+
+/*.menu-social-media-container ul{*/
+/*    text-align: center;*/
+/*}*/
+
+/*.menu-social-media-container ul li{*/
+/*    display: inline;*/
+/*}*/
+
+/*.menu-social-media-container ul li a{*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*}*/
+
+.featuresHeader{
+    font-size: 40px;
+}

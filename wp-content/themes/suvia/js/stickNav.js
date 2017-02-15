@@ -11,12 +11,10 @@ function stickyNav() {
   scroll = window.scrollY;
   if(scroll >= fromTop){
     document.body.classList.add('fixed');
-    console.log("fixed");
     document.body.style.marginTop = navHeight + "px";
   }else{
     document.body.classList.remove('fixed');
     document.body.style.marginTop = 0;
-    console.log("not fixed");
     }
 
 }
