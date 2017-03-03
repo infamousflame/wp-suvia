@@ -1,3 +1,9 @@
+/*
+Theme Name: Suvia
+Author: Owen Levin
+Version: 7.0.0
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Lobster|Questrial|Raleway');
 
 html{
@@ -9,7 +15,6 @@ html, body{
     padding: 0;
     overflow-x: hidden;
 }
-
 
 #site-navigation{
     display:none;
@@ -33,12 +38,19 @@ html, body{
     background-size: cover;
     background-repeat:none;
     background-attachment: fixed;
-    padding:33vh 0;
-    background-position: center: 
+    padding: 34vh 0;
+    background-position: center;
     margin:0;
+}
+.headerSectionTeam h3{
+     font-family: "Lobster", cursive !important;
+    text-decoration: none;
+    color: white !important;
+    font-size: 80px !important;
 }
 .headerRow{
     margin-bottom:0;
+    
 }
 
 .headerSection h3{
@@ -125,6 +137,7 @@ html, body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999999999;
 }
 
 .panel-grid-cell h3{
@@ -143,7 +156,7 @@ html, body{
 }
 
 #pg-11-0{
-    padding-top: 10px;
+    padding-top:0;
 }
 
 #pg-11-1{
@@ -168,6 +181,15 @@ html, body{
     margin-top: 50px;
     margin-bottom: 0;
 }    
+
+.menu-navigation-container ul li a{
+    transition: .3s all;
+    
+}
+
+.menu-navigation-container ul li a:hover{
+    color:black;
+}
 
 .menu-footer-navigation-container{
     background-color: grey;
@@ -243,4 +265,20 @@ html, body{
 
 .featuresHeader{
     font-size: 40px;
+}
+
+.bottom{
+    border-bottom:1px solid #eee;
+}
+#pg-63-0{
+    margin:0;
+}
+
+.product_list_widget li{
+    display: inline-block;
+    width: 33.33%;
+}
+
+.product_list_widget li a img{
+    width: 500px !important;
 }

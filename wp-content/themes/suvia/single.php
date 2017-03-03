@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php 
-			the_field('home_title');
+			//the_field('home_title'); //Home Title doesn't work? Are you trying to get the blog title
 		?>
 		<?php
 		while ( have_posts() ) : the_post();

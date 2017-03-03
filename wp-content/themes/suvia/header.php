@@ -17,7 +17,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
-<link rel="stylesheet" href="https://suvia-wordpress-infamousflame.c9users.io/wp-content/themes/suvia/style.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css" />
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 </head>
 
